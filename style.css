@@ -1,0 +1,137 @@
+/* Whole document style*/
+html {
+  /* Change font to arial (more modern) */
+  font-family: "Arial";
+  /* Makes scroll bar always visible */
+  overflow-y: scroll; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+/* General styling for body tag content */
+body {
+  font-size: 100%;
+  background: #F8F8FF;
+  margin-bottom: 100px; }
+
+/* The title bar */
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  margin-top: 70px;
+  color: white;
+  background: #215394;
+  text-align: center;
+  /* border: px solid #B0C4DE; */
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px; }
+
+/* For the navigation bar */
+ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #215394;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+
+/* Used for nav bar */
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+    background-color: #111; }	
+
+/* Specific style for user input areas esp registration */
+form {
+  width: 90%;
+  margin: 0px auto;
+  background: white; }
+
+/* Created div for form content */
+.content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px; }
+
+/* Specific style for sizing of form controls */
+.input-group {
+  margin: 10px 0px 10px 0px; }
+
+/* Specific style for text appearance for general labels inside the "input-group" div*/
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px; }
+
+/* Specific style for text appearance for general labels inside the "input-group" div */
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray; }
+
+/* Button styling */
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #215394;
+  border: none;
+  border-radius: 5px; }
+
+/* Fixed footer */
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center; }
+
+/* Styling for error messages; unsuccessful login */
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left; }
+
+  /* Styling for successful login message */
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+/* Select menu styling */
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}

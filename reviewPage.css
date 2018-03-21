@@ -1,0 +1,104 @@
+html {
+    /* Change universal font to arial (more modern) */
+    font-family: "Arial";
+    /* Makes scroll bar always visible */
+    overflow-y: scroll; }
+
+body {  
+    /* This ensures that the top bar spans the full width */
+    margin:0;
+    /* Ensures that the content under footer is pushed up */
+    margin-bottom: 100px; }
+
+/*"ul", "li a", and "li a:hover" are used for the nav bar  */
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #215394;
+    /* Keep in to position */
+    position: fixed;
+    top: 0;
+    /* Span the entire page */
+    width: 100%; 
+    z-index: 999; }
+
+/* Used for nav bar */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111; }	
+
+/* Fixed footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center; }
+
+/* Table  */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px; }
+
+/* Table data & table headings */
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; }
+
+/* Shade every even numbered row */
+tr:nth-child(even) 
+{
+    background-color: #dddddd;}
+
+/* Splits into columns */
+* {
+    box-sizing: border-box; }
+
+/* Create two columns that floats next to each other */
+.column 
+{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px; }
+
+/* Clear floats after the columns */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both; }
+
+/* The size of the map, resizable to window size */
+#map
+{
+    position: absolute;
+    width: 45%;
+    height: 70%; }
+
+input[type=text] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; }
+
